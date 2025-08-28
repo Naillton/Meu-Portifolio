@@ -198,6 +198,43 @@ footer {
   box-shadow: 0 0 8px var(--neon-purple), 0 0 8px var(--neon-purple);
 }
 
+.certifications {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 24px;
+}
+
+.certification {
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--neon-blue);
+  border-radius: 5px;
+  box-shadow: 0 0 8px var(--neon-blue), 0 0 8px var(--neon-blue);
+  padding: 20px;
+  margin: 20px;
+  width: 25%;
+}
+
+.certification:hover {
+  animation: pulso 1s infinite;
+  color: var(--neon-purple);
+  text-shadow: 0 0 10px var(--neon-purple);
+  border-color: var(--neon-purple);
+  border-radius: 5px;
+  box-shadow: 0 0 8px var(--neon-purple), 0 0 8px var(--neon-purple);
+}
+
+@media (max-width: 1067px) {
+  .profile-image {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 730px) {
 
   .nav-links li {
@@ -219,35 +256,50 @@ footer {
     box-sizing: border-box;
   }
 
-  main {
-    margin-top: 80px;
-  }
-
-  .about-content {
-    flex-direction: column;
-    padding: 20px;
-  }
-
-  .profile-image,
-  .profile-image img {
-    display: none;
-  }
-
-  #principal-section {
-    margin: 12px;
+  #project-list li, .certification {
+    width: 90%;
+    margin: 10px auto;
+    font-size: 1rem;
     padding: 12px;
   }
 
-  #project-list {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    gap: 20px;
-    padding: 0 20px;
+  main {
+    padding-top: 100px;
+    padding-bottom: 40px;
   }
 
-  #project-list li {
-    flex: 0 0 70vw;
-    scroll-snap-align: center;
+  #principal-section {
+    margin: 10px;
+    padding: 10px;
+  }
+
+
+  .about-content, .certifications, #project-list {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .about-text {
+    max-width: 100%;
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  a {
+    font-size: 1rem;
+    padding: 8px;
+  }
+
+  i {
+    font-size: 1.2rem;
+  }
+
+  footer {
+    padding: 6px;
+    font-size: 0.9rem;
   }
 }
