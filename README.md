@@ -1,4 +1,4 @@
-🧑‍💻 Portfólio Nailton Jr.
+🧑‍💻 Meu Portfólio
 
 Bem-vindo ao meu portfólio online! Neste repositório você vai encontrar meus projetos, habilidades, certificações e formas de contato.
 
@@ -22,8 +22,8 @@ Ferramentas e conceitos: Docker, banco de dados (MySQL, PostgreSQL), Shell/Bash,
 
 Se quiser entrar em contato, colaborar ou apenas bater um papo:
 
-GitHub: (https://github.com/Naillton)
+GitHub: https://github.com/Naillton
 
-LinkedIn: (https://www.linkedin.com/in/nailtonjr/)
+LinkedIn: https://www.linkedin.com/in/nailtonjr/
 
-Email: (nailton_junior@protonmail.com)
+Email: nailton_junior@protonmail.com
